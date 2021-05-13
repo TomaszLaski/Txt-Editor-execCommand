@@ -1,6 +1,6 @@
 ## Simple text editor with execCommand
 
-It is a very simple text editor with an deprecated execCommand() method.
+It is a very simple text editor with a deprecated execCommand() method.
 
 ## Project technologies
 
