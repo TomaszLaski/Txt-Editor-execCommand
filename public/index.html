@@ -1,13 +1,35 @@
-<html>
-
-<head>
-  <title>Express</title>
-  <link rel="stylesheet" href="/stylesheets/style.css">
-</head>
-
-<body>
-  <h1>Express</h1>
-  <p>Welcome to Express</p>
-</body>
-
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<script
+			src="https://kit.fontawesome.com/9055e56730.js"
+			crossorigin="anonymous"
+		></script>
+		<title>My text editor</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="neon" data-text="My Text Editor">My Text Editor</h1>
+		</div>
+		<div class="txt-container" id="txt">
+			<h2 class="neon" data-text="Type text below:">Type text below:</h2>
+			<div class="txt-toolbar">
+				<button onclick="textBold()" title="Bold">
+					<i class="fas fa-bold"></i>
+				</button>
+				<button onclick="textItalic()">
+					<i class="fas fa-italic" title="Italic"></i>
+				</button>
+				<button onclick="textPointer()" title="Unordered List">
+					<i class="fas fa-list-ul"></i>
+				</button>
+			</div>
+			<div id="myiframe" name="textField" contenteditable></div>
+		</div>
+		<script src="./main.js"></script>
+	</body>
 </html>
